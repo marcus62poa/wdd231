@@ -95,6 +95,14 @@ h2 {margin-bottom: 1rem;
     border-bottom: 2px solid var(--primary-color);
     padding-bottom: 0.5rem;}
 
+    /* Profile Photo Style */
+.profile-photo {
+    max-width: 150px;
+    border-radius: 10%;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
 /* Course Filter & Grid */
 .filter-buttons {
     display: flex;
