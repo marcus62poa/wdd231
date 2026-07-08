@@ -79,12 +79,21 @@ section {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-h2 {
+#page-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--light-text);
+}
+h1 {
     margin-bottom: 1rem;
     color: var(--primary-color);
     border-bottom: 2px solid var(--primary-color);
     padding-bottom: 0.5rem;
 }
+h2 {margin-bottom: 1rem;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 0.5rem;}
 
 /* Course Filter & Grid */
 .filter-buttons {
