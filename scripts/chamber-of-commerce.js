@@ -18,13 +18,11 @@ const btnWdd = document.getElementById('btn-wdd');
 function renderCourses(filter = 'All') {
     courseList.innerHTML = '';
     
-    
     let filteredCourses = courses;
     if (filter !== 'All') {
         filteredCourses = courses.filter(course => course.subject === filter);
     }
 
-    
     filteredCourses.forEach(course => {
         const courseDiv = document.createElement('div');
        
@@ -33,11 +31,9 @@ function renderCourses(filter = 'All') {
         courseList.appendChild(courseDiv);
     });
 
-    
     const totalCredits = filteredCourses.reduce((acc, course) => acc + course.credits, 0);
     totalCreditsEl.textContent = totalCredits;
 }
-
 
 function updateActiveButton(activeBtn) {
     [btnAll, btnCse, btnWdd].forEach(btn => btn.classList.remove('active-filter'));
@@ -59,9 +55,7 @@ btnWdd.addEventListener('click', () => {
     updateActiveButton(btnWdd);
 });
 
-
 renderCourses('All');
-
 
 const menuButton = document.getElementById('menu-button');
 const navUl = document.querySelector('#main-nav ul');
@@ -69,7 +63,6 @@ const navUl = document.querySelector('#main-nav ul');
 menuButton.addEventListener('click', () => {
     navUl.classList.toggle('open');
 });
-
 
 document.getElementById('currentyear').textContent = new Date().getFullYear();
 document.getElementById('lastModified').textContent = "Last Modification: " + document.lastModified;
