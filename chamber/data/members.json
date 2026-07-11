@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Viamão Tech Solutions",
+    "address": "Rua Centro 123, Viamão, RS",
+    "phone": "(51) 9999-1111",
+    "website": "https://viamaotech.example.com",
+    "image": "images/tech.jpg",
+    "level": 3,
+    "description": "We does the best computer fix in town."
+  },
+  {
+    "name": "Padaria Pão Quente",
+    "address": "Av. Principal 45, Viamão, RS",
+    "phone": "(51) 8888-2222",
+    "website": "https://paoquente.example.com",
+    "image": "images/bakery.jpg",
+    "level": 1,
+    "description": "Good food for you eating everyday."
+  },
+  {
+    "name": "Oficina do Silva",
+    "address": "Rua das Rodas 88, Viamão, RS",
+    "phone": "(51) 7777-3333",
+    "website": "https://oficinasilva.example.com",
+    "image": "images/mechanic.jpg",
+    "level": 2,
+    "description": "Cars repair done quick and fast."
+  },
+  {
+    "name": "Supermercado Compre Mais",
+    "address": "Praça Central 12, Viamão, RS",
+    "phone": "(51) 6666-4444",
+    "website": "https://compremais.example.com",
+    "image": "images/market.jpg",
+    "level": 3,
+    "description": "We has many groceries for cheap."
+  },
+  {
+    "name": "Gomes Web Design",
+    "address": "Bairro Viamópolis 90, Viamão, RS",
+    "phone": "(51) 5555-5555",
+    "website": "https://gomesweb.example.com",
+    "image": "images/web.jpg",
+    "level": 3,
+    "description": "Making websites that looks very good."
+  },
+  {
+    "name": "Farmácia Saúde Total",
+    "address": "Av. Senador Salgado 340, Viamão, RS",
+    "phone": "(51) 4444-6666",
+    "website": "https://saudetotal.example.com",
+    "image": "images/pharmacy.jpg",
+    "level": 2,
+    "description": "Medicines and helps for peoples."
+  },
+  {
+    "name": "Academia Força Viva",
+    "address": "Rua do Parque 77, Viamão, RS",
+    "phone": "(51) 3333-7777",
+    "website": "https://forcaviva.example.com",
+    "image": "images/gym.jpg",
+    "level": 1,
+    "description": "Come lift weights and get strongers."
+  }
+]

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Business Directory for the Viamão Chamber of Commerce">
+    <meta name="author" content="Marcus de Souza Gomes">
+    <title>Directory - Viamão Chamber of Commerce</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Facebook Social Media Meta Data -->
+    <meta property="og:title" content="Viamão Chamber of Commerce Directory">
+    <meta property="og:description" content="Find the best local businesses and services in Viamão.">
+    <meta property="og:image" content="https://marcus62poa.github.io/wdd231/chamber/images/og-image.jpg">
+    <meta property="og:url" content="https://marcus62poa.github.io/wdd231/chamber/directory.html">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS and JS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/chamber.css">
+    <script src="./scripts/directory.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="images/logo.png" alt="Viamão Chamber Logo" width="80">
+            <span id="page-title">Viamão Chamber of Commerce</span>
+        </div>
+        <button id="menu-button" aria-label="Toggle navigation">&#9776;</button>
+    </header>
+    
+    <nav id="main-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html" class="active">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Business Directory</h1>
+        <p class="intro-text">Welcome to Viamão Chamber directory, we has many business here for you looking.</p>
+        
+        <div class="view-toggles">
+            <button id="grid-btn" class="active-view">🔲 Grid</button>
+            <button id="list-btn">📄 List</button>
+        </div>
+
+        <!-- O JavaScript vai injetar as empresas aqui -->
+        <div id="members-container" class="grid"></div>
+    </main>
+
+    <footer>
+        <div class="footer-info">
+            <p><strong>Viamão Chamber of Commerce</strong></p>
+            <p>Rua Centro, 100 - Viamão, RS</p>
+            <p>info@viamaochamber.example.com</p>
+            <p>(51) 3333-0000</p>
+        </div>
+        <div class="footer-legal">
+            <p>WDD231 Class Project</p>
+            <p>Marcus de Souza Gomes</p>
+            <p>&copy; <span id="currentyear"></span> Viamão Chamber</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>
