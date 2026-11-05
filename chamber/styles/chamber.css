@@ -1,9 +1,13 @@
 :root {
-    --primary-color: #0B2545;
-    --secondary-color: #8DA9C4;
-    --bg-color: #EEF4ED;
-    --text-color: #13315C;
+    --primary-color: #003366;
+    --secondary-color:  #4CAF50;
+    --bg-color: #f4f4f9;
+    --text-color: #333333;
     --light-text: #ffffff;
+    --completed-bg: #d4edda;
+    --completed-border: #28a745;
+    --incomplete-bg: #fff3cd;
+    --incomplete-border: #ffc107;
 }
 
 * {
@@ -13,13 +17,13 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--bg-color);
     color: var(--text-color);
     line-height: 1.6;
 }
 
-/* Header & Nav */
+/* Header & Navigation */
 header {
     background-color: var(--primary-color);
     color: var(--light-text);
@@ -50,7 +54,7 @@ header {
 }
 
 nav {
-    background-color: #13315C;
+    background-color: #002244;
 }
 
 nav ul {
@@ -68,13 +72,12 @@ nav ul li a {
 }
 
 nav ul li a:hover, nav ul li a.active {
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
+    background-color: var(--secondary-color); /* Wayfinding */
 }
 
 /* Main Content */
 main {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 2rem auto;
     padding: 0 1rem;
 }
