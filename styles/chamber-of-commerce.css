@@ -40,7 +40,7 @@ header {
     gap: 1rem;
 }
 #menu-button {
-    background: none;
+    background-color: var(--primary-color);
     border: none;
     color: var(--light-text);
     font-size: 2rem;
@@ -150,13 +150,13 @@ h2 {margin-bottom: 1rem;
 .course-card.completed {
     background-color: var(--completed-bg);
     border-color: var(--completed-border);
-    color: #155724;
+    color: #123d18;
 }
 
 .course-card.incomplete {
     background-color: var(--incomplete-bg);
     border-color: var(--incomplete-border);
-    color: #856404;
+    color: #5c4300;
 }
 
 .credits-display {
