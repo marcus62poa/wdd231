@@ -10,6 +10,7 @@
     --incomplete-border: #ffc107;
 }
 
+
 * {
     margin: 0;
     padding: 0;
@@ -33,6 +34,11 @@ header {
     align-items: center;
 }
 
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
 #menu-button {
     background: none;
     border: none;
