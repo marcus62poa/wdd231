@@ -1,2 +1,2 @@
 Javaescript - 
-Dom - change a the structure of the page without needs of recharging the page
+Dom - change the structure of the page without needs of recharging the page
