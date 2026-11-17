@@ -306,9 +306,7 @@ button:focus-visible {
 ================================ */
 
 @media (min-width: 769px) {
-
-  
-
+    
     .hero-content h1 {
         font-size: 2.5rem;
     }
