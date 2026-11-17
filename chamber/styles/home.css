@@ -226,16 +226,13 @@
 }
 
 .membership-level {
-    display: inline-block;
-
-    margin-top: 0.75rem;
+    display: block;
+    width: fit-content;
+    margin: 0.75rem auto 0;
     padding: 0.3rem 0.7rem;
-
     background-color: #2e7d32;
     color: #ffffff;
-
     border-radius: 4px;
-
     font-weight: bold;
 }
 
