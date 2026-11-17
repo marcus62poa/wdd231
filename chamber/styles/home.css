@@ -4,8 +4,8 @@
 
 main {
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 1rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
 }
 
 /* ================================
@@ -309,9 +309,7 @@ button:focus-visible {
 
 @media (min-width: 769px) {
 
-    main {
-        padding: 2rem;
-    }
+  
 
     .hero-content h1 {
         font-size: 2.5rem;
