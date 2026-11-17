@@ -1,6 +1,6 @@
-// ================================
+
 // MOBILE NAVIGATION
-// ================================
+
 
 const menuButton = document.getElementById("menu-button");
 const navUl = document.querySelector("#main-nav ul");
@@ -37,8 +37,7 @@ document.getElementById("lastModified").textContent =
 const latitude = -30.0819;
 const longitude = -51.0233;
 
-// IMPORTANT:
-// Replace YOUR_API_KEY with your own OpenWeatherMap API key.
+
 const apiKey = "98543c1bcf1028e004c11c5f0e63ab47";
 
 const currentWeatherURL =
