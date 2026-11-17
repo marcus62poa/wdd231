@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Discover places, businesses, and community information in Viamão, Brazil.">
+    <meta name="author" content="Marcus de Souza Gomes">
+
+    <title>Discover - Viamão Chamber of Commerce</title>
+
+    <meta property="og:title" content="Discover - Viamão Chamber of Commerce">
+    <meta property="og:description" content="Discover places and community information in Viamão.">
+    <meta property="og:image" content="https://marcus62poa.github.io/wdd231/chamber/images/viamao.jpg">
+    <meta property="og:url" content="https://marcus62poa.github.io/wdd231/chamber/discover.html">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="images/fivecon.jpg" type="image/jpeg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize2.css">
+    <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="stylesheet" href="styles/discover.css">
+
+    <script src="scripts/discover.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <div class="header-container">
+        <img src="images/viamao.jpg" alt="Viamão Chamber Logo" width="80">
+        <span id="page-title">Viamão Chamber of Commerce</span>
+    </div>
+
+    <button id="menu-button" aria-label="Toggle navigation" aria-expanded="false">
+        &#9776;
+    </button>
+</header>
+
+<nav id="main-nav">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="discover.html" class="active">Discover</a></li>
+        <li><a href="https://github.com/marcus62poa" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/marcus-souza-gomes/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+    </ul>
+</nav>
+
+<main>
+
+    <h1>Discover Viamão</h1>
+
+    <section class="discover-intro">
+        <h2>Explore Our Community</h2>
+
+        <p>
+            Discover places, businesses, culture, and community opportunities
+            in Viamão, Rio Grande do Sul.
+        </p>
+    </section>
+
+    <div class="discover-grid">
+
+        <article class="discover-card">
+            <img
+                src="images/viamao.jpg"
+                alt="View of Viamão"
+                loading="lazy">
+
+            <div>
+                <h2>Viamão</h2>
+
+                <p>
+                    Viamão is a municipality in Rio Grande do Sul,
+                    located near Porto Alegre.
+                </p>
+
+                <p>
+                    The city offers a combination of urban areas,
+                    natural landscapes, and local businesses.
+                </p>
+            </div>
+        </article>
+
+        <article class="discover-card">
+            <img
+                src="images/viamao.jpg"
+                alt="Local business community in Viamão"
+                loading="lazy">
+
+            <div>
+                <h2>Local Businesses</h2>
+
+                <p>
+                    Local businesses contribute to the economic development
+                    and growth of the Viamão community.
+                </p>
+
+                <p>
+                    The Chamber helps businesses connect and develop
+                    professional relationships.
+                </p>
+            </div>
+        </article>
+
+        <article class="discover-card">
+            <img
+                src="images/viamao.jpg"
+                alt="Community in Viamão"
+                loading="lazy">
+
+            <div>
+                <h2>Community</h2>
+
+                <p>
+                    Community activities provide opportunities for residents
+                    and businesses to work together.
+                </p>
+            </div>
+        </article>
+
+        <article class="discover-card">
+            <img
+                src="images/viamao.jpg"
+                alt="Nature in Viamão"
+                loading="lazy">
+
+            <div>
+                <h2>Nature and Recreation</h2>
+
+                <p>
+                    Viamão is known for its natural areas and outdoor
+                    opportunities in the surrounding region.
+                </p>
+            </div>
+        </article>
+
+        <article class="discover-card">
+            <img
+                src="images/viamao.jpg"
+                alt="Culture in Viamão"
+                loading="lazy">
+
+            <div>
+                <h2>Culture</h2>
+
+                <p>
+                    Local traditions and community events contribute
+                    to the cultural identity of Viamão.
+                </p>
+            </div>
+        </article>
+
+        <article class="discover-card">
+            <img
+                src="images/viamao.jpg"
+                alt="Economic development in Viamão"
+                loading="lazy">
+
+            <div>
+                <h2>Economic Development</h2>
+
+                <p>
+                    Supporting local businesses helps create opportunities
+                    and strengthen the local economy.
+                </p>
+            </div>
+        </article>
+
+    </div>
+
+    <p id="visit-message" class="visit-message"></p>
+
+</main>
+
+<footer>
+    <div class="footer-info">
+        <p><strong>Viamão Chamber of Commerce</strong></p>
+        <p>Rua Centro, 100 - Viamão, RS</p>
+        <p>info@viamaochamber.example.com</p>
+        <p>(51) 3333-0000</p>
+    </div>
+
+    <div class="footer-legal">
+        <p>WDD231 Class Project</p>
+        <p>Marcus de Souza Gomes</p>
+        <p>&copy; <span id="currentyear"></span> Viamão Chamber</p>
+        <p id="lastModified"></p>
+    </div>
+</footer>
+
+</body>
+</html>
