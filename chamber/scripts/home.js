@@ -248,16 +248,12 @@ function displaySpotlights(members) {
     container.innerHTML = "";
 
     // Keep only Gold and Silver members
-    const qualifiedMembers =
-        members.filter((member) => {
+const qualifiedMembers =
+    members.filter((member) => {
 
-            const level =
-                String(member.level).toLowerCase();
+        return member.level === 2 || member.level === 3;
 
-            return level === "gold" || level === "silver";
-
-        });
-
+    });
 
     // Shuffle the qualified members
     const shuffled =
