@@ -18,9 +18,9 @@ menuButton.addEventListener("click", () => {
 });
 
 
-// ================================
+
 // FOOTER
-// ================================
+
 
 document.getElementById("currentyear").textContent =
     new Date().getFullYear();
@@ -29,9 +29,9 @@ document.getElementById("lastModified").textContent =
     `Last Modification: ${document.lastModified}`;
 
 
-// ================================
+
 // WEATHER API
-// ================================
+
 
 // Viamão, Rio Grande do Sul, Brazil
 const latitude = -30.0819;
@@ -39,7 +39,7 @@ const longitude = -51.0233;
 
 // IMPORTANT:
 // Replace YOUR_API_KEY with your own OpenWeatherMap API key.
-const apiKey = "YOUR_API_KEY";
+const apiKey = "98543c1bcf1028e004c11c5f0e63ab47";
 
 const currentWeatherURL =
     `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=${apiKey}`;
@@ -48,9 +48,8 @@ const forecastURL =
     `https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&units=metric&appid=${apiKey}`;
 
 
-// ================================
 // CURRENT WEATHER
-// ================================
+
 
 async function getCurrentWeather() {
 
@@ -114,9 +113,8 @@ function displayCurrentWeather(data) {
 }
 
 
-// ================================
 // THREE-DAY FORECAST
-// ================================
+
 
 async function getForecast() {
 
@@ -202,9 +200,9 @@ function displayForecast(forecastList) {
 }
 
 
-// ================================
+
 // COMPANY SPOTLIGHTS
-// ================================
+
 
 const membersURL = "data/members.json";
 
@@ -239,9 +237,9 @@ async function getMembers() {
 }
 
 
-// ================================
+
 // RANDOM GOLD/SILVER SPOTLIGHTS
-// ================================
+
 
 function displaySpotlights(members) {
 
