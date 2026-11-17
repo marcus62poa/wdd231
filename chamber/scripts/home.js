@@ -328,8 +328,11 @@ const qualifiedMembers =
 
         level.classList.add("membership-level");
 
+        const membershipName =
+            member.level === 3 ? "Gold" : "Silver";
+
         level.textContent =
-            `${member.level} Member`;
+            `${membershipName} Member`;
 
         card.appendChild(image);
         card.appendChild(name);
