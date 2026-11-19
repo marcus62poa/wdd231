@@ -68,9 +68,9 @@
     top: -20px;
     width: 7px;
     height: 12px;
-    opacity: 1;
     border-radius: 2px;
-    animation: confetti-fall 2.2s ease-out forwards;
+    opacity: 1;
+    animation: confetti-fall 5s ease-out forwards;
 }
 
 @keyframes confetti-fall {
@@ -80,7 +80,7 @@
     }
 
     100% {
-        transform: translateY(85vh) rotate(720deg);
+        transform: translateY(85vh) rotate(360deg);
         opacity: 0;
     }
 }

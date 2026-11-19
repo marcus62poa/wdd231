@@ -83,12 +83,13 @@ const confettiColors = [
     "#7b1fa2"
 ];
 
-for (let i = 0; i < 40; i++) {
+for (let i = 0; i < 25; i++) {
     const confetti = document.createElement("span");
 
     confetti.classList.add("confetti");
 
     confetti.style.left = Math.random() * 100 + "%";
+
     confetti.style.backgroundColor =
         confettiColors[Math.floor(Math.random() * confettiColors.length)];
 
@@ -97,6 +98,10 @@ for (let i = 0; i < 40; i++) {
 
     confetti.style.transform =
         `rotate(${Math.random() * 360}deg)`;
+
+    confetti.addEventListener("animationend", () => {
+        confetti.remove();
+    });
 
     confettiContainer.appendChild(confetti);
 }
