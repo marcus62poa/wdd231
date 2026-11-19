@@ -17,13 +17,13 @@ menuButton.addEventListener("click", () => {
 });
 
 
-// footer year
-
+// foot er  year
+ 
 document.getElementById("currentyear").textContent =
     new Date().getFullYear();
 
 
-// last modified
+// last mo dified
 
 document.getElementById("lastModified").textContent =
     "Last Modification: " + document.lastModified;
