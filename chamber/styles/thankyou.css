@@ -1,0 +1,52 @@
+/* thank you page */
+
+.thankyou-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.thankyou-container h1 {
+    margin-bottom: 1rem;
+}
+
+.thankyou-container > p {
+    margin-bottom: 2rem;
+}
+
+/* application information */
+
+.application-info {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.application-info p {
+    margin: 0;
+    padding: 1rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.application-info p:last-child {
+    border-bottom: none;
+}
+
+/* mobile */
+
+@media (max-width: 768px) {
+
+    .thankyou-container {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .application-info {
+        padding: 1.2rem;
+    }
+}
