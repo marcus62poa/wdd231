@@ -16,24 +16,20 @@ menuButton.addEventListener("click", () => {
     );
 });
 
-
 // footer year
 
 document.getElementById("currentyear").textContent =
     new Date().getFullYear();
-
 
 // last modified
 
 document.getElementById("lastModified").textContent =
     "Last Modification: " + document.lastModified;
 
-
 // form timestamp
 
 document.getElementById("timestamp").value =
     new Date().toISOString();
-
 
 // membership modals
 
@@ -50,10 +46,17 @@ modalButtons.forEach((button) => {
     });
 });
 
-
 closeButtons.forEach((button) => {
     button.addEventListener("click", () => {
 
         button.closest("dialog").close();
     });
+});
+
+// page transition
+
+const joinForm = document.querySelector(".join-form");
+
+joinForm.addEventListener("submit", () => {
+    document.body.classList.add("page-exit");
 });

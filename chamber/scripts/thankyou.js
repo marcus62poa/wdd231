@@ -70,3 +70,33 @@ applicationInfo.innerHTML = `
         <strong>Application Date and Time:</strong> ${timestamp}
     </p>
 `;
+
+// confetti
+
+const confettiContainer = document.querySelector(".confetti-container");
+
+const confettiColors = [
+    "#2e7d32",
+    "#003366",
+    "#f4b400",
+    "#d32f2f",
+    "#7b1fa2"
+];
+
+for (let i = 0; i < 40; i++) {
+    const confetti = document.createElement("span");
+
+    confetti.classList.add("confetti");
+
+    confetti.style.left = Math.random() * 100 + "%";
+    confetti.style.backgroundColor =
+        confettiColors[Math.floor(Math.random() * confettiColors.length)];
+
+    confetti.style.animationDelay =
+        Math.random() * 0.8 + "s";
+
+    confetti.style.transform =
+        `rotate(${Math.random() * 360}deg)`;
+
+    confettiContainer.appendChild(confetti);
+}
